@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".echallan">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <!-- Card Button 2 -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/punjab"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="6dp"
+            app:strokeColor="#FF003E"
+            app:strokeWidth="2dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/deco1"
+                android:layout_width="15dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#FF0000"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                app:strokeColor="#FF0000"
+                app:strokeWidth="2dp"></com.google.android.material.card.MaterialCardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/textpunjab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:text="Punjab"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="Punjab Driving License Authority"
+                    android:src="@drawable/punjab_police" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/sindh"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="6dp"
+            app:strokeColor="#004BBA"
+            app:strokeWidth="2dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/deco2"
+                android:layout_width="15dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#004BBA"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                app:strokeColor="#004BBA"
+                app:strokeWidth="2dp"></com.google.android.material.card.MaterialCardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/textsindh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:text="Sindh"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="Sindh Driving Lisnce Authority"
+                    android:src="@drawable/sindh_police" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/isb"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="6dp"
+            app:strokeColor="#241e20"
+            app:strokeWidth="2dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/deco3"
+                android:layout_width="15dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#241e20"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                app:strokeColor="#241e20"
+                app:strokeWidth="2dp"></com.google.android.material.card.MaterialCardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/textkpk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:text="Islamabad"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="KPK Driving Lisence Authority"
+                    android:src="@drawable/isb_traffic_police" />
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <!-- Card Button 1 -->
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

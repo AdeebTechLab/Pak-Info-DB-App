@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PakInfoDB"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".echallan"
+            android:exported="false"
+            android:label="E-Challan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".browser"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tracking_package"
+            android:exported="false"
+            android:label="Parcel Tracking"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".internet_bill"
+            android:exported="false"
+            android:label="PTCL Bill"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sui_gas"
+            android:exported="false"
+            android:label="SUI Gas"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".electricity_bill"
+            android:exported="false"
+            android:label="Electricity Bill"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".passport"
+            android:exported="false"
+            android:label="Passport"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".vehicle_verification"
+            android:exported="false"
+            android:label="Vehicle Verification"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ntninquiry"
+            android:exported="false"
+            android:label="FBR"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".onlinefir"
+            android:exported="false"
+            android:label="Online FIR"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".license"
+            android:exported="false"
+            android:label="Driving License"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sim_owner"
+            android:exported="false"
+            android:label="Sim Data"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_version" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:label=""
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

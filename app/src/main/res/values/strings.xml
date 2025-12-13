@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pak Info DB</string>
+    <string name="sim">Sim Owner info</string>
+    <string name="license">Driving License Info</string>
+    <string name="fir">Online FIR Info</string>
+    <string name="ntn">NTN Inquiry info</string>
+    <string name="vehicle">Vehicle Verification info</string>
+    <string name="passport">Passport Inquiry info</string>
+    <string name="electricity">Electricity Bill info</string>
+    <string name="sui_gas">Sui Gas Bill info</string>
+    <string name="internet">Internet Bill info</string>
+    <string name="parcel">Parcel Tracking info</string>
+    <string name="app_version">Pak Info Database V 0.3.0</string>
+    <string name="echallan">E-Challan</string>
+</resources>

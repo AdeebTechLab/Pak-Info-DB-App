@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_mobile_view"
+        android:title="Mobile View" />
+    <item
+        android:id="@+id/action_desktop_view"
+        android:title="Desktop View" />
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+</menu>
