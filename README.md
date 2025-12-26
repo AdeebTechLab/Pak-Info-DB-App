@@ -1,4 +1,4 @@
-# 🇵🇰 Pak-Info-DB-App
+# Pak-Info-DB-App
 
 📱 **Pakistan SIM & CNIC Info App**  
 A simple and powerful Android app to lookup Pakistani SIM details and CNIC information in one place.
@@ -46,15 +46,6 @@ A simple and powerful Android app to lookup Pakistani SIM details and CNIC infor
 - Gradle build system
 
 🛠 Compatible with Android devices.
-
----
-
-## 📥 How to Build & Install
-
-1. Clone this repository  
-2. Open the project in **Android Studio**  
-3. Let Gradle sync and install dependencies  
-4. Build & run on your Android device / emulator
 
 ---
 
